@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background-color: #eee;
+}
+.container {
+  margin: 20px auto;
+  width: 400px;
+  height: 400px;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-row: auto auto;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topleft {
+  transform: rotate(90deg);
+  transform-origin: top left;
+  transition: transform 1s linear;
+}
+
+.topright {
+  transform: rotate(-90deg);
+  transform-origin: top right;
+  transition: transform 1s;
+}
+
+.bottomleft {
+  transform: rotate(-90deg);
+  transform-origin: bottom left;
+  transition: transform 1s linear;
+}
+
+.bottomright {
+  transform: rotate(90deg);
+  transform-origin: bottom right;
+  transition: transform 1s linear;
+}
