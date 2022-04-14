@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
     <title>Topic</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <header>
-        <h1>Heading</h1><br> 
+        <h1>Welcome to the Matrix!</h1><br> 
         - Need to write a description here.</header>
-    
+    <div class="content">
     <article>
         <h2>Heading 1</h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, ratione voluptates. Itaque aperiam ea ex harum voluptatibus blanditiis architecto expedita minus, molestiae earum enim modi dolore porro! Deserunt, saepe rem.</p>    
@@ -23,6 +24,16 @@
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, ratione voluptates. Itaque aperiam ea ex harum voluptatibus blanditiis architecto expedita minus, molestiae earum enim modi dolore porro! Deserunt, saepe rem.</p>    
         <a href="#">Link 3</a>
     </article>
+</div>
+    <form>
+        <label for="firstname"> First Name: </label>
+        <input type="text" name="firstname" id="firstname" required maxlength="45">
+        <label for="lastname"> Last Name: </label>
+        <input type="text" name="lastname" id="lastname" required maxlength="45">
+        <label for="lastname"> e-mail: </label>
+        <input type="email" name="email" id="email" required maxlength="45">
+        <button>Submit</button>
+        </form>
     <footer>
         This is a footer
     </footer>

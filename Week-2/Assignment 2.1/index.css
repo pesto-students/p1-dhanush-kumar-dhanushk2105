@@ -1,0 +1,30 @@
+* {
+  color: green;
+  background-color: black;
+}
+
+/* body {
+  background-color: black;
+  background-image: url("matrix.gif");
+} */
+
+.content {
+  display: flex;
+  align-items: center;
+  height: 250px;
+  align-content: center;
+  align-items: center;
+}
+
+article {
+  border: 1px;
+  border-style: dashed;
+  margin: 20px 20px 20px 20px;
+  justify-content: center;
+  align-self: center;
+}
+
+*:hover {
+  color: aliceblue;
+  transition: 0.5s ease-in-out;
+}
