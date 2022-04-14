@@ -23,26 +23,26 @@ html {
   justify-content: center;
 }
 
-.topleft {
+.topleft:hover {
   transform: rotate(90deg);
   transform-origin: top left;
-  transition: transform 1s linear;
+  transition: transform 1s ease-in-out;
 }
 
-.topright {
+.topright:hover {
   transform: rotate(-90deg);
   transform-origin: top right;
-  transition: transform 1s;
+  transition: transform 1s ease-in-out;
 }
 
-.bottomleft {
+.bottomleft:hover {
   transform: rotate(-90deg);
   transform-origin: bottom left;
-  transition: transform 1s linear;
+  transition: transform 1s ease-in-out;
 }
 
-.bottomright {
+.bottomright:hover {
   transform: rotate(90deg);
   transform-origin: bottom right;
-  transition: transform 1s linear;
+  transition: transform 1s ease-in-out;
 }
