@@ -48,3 +48,16 @@ form {
   flex-direction: column;
   justify-content: center;
 }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    align-items: center;
+    z-index: 5;
+    top: 0;
+  }
+}
