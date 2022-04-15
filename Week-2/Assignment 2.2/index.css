@@ -21,6 +21,8 @@ h1 {
   position: relative;
   top: 0px;
   left: 0px;
+  transform-origin: top left;
+  transition: transform 1s ease;
 }
 #B {
   background-color: yellow;
@@ -29,6 +31,8 @@ h1 {
   position: relative;
   top: 0px;
   left: 0px;
+  transform-origin: top right;
+  transition: transform 1s ease;
 }
 #C {
   background-color: blue;
@@ -37,6 +41,8 @@ h1 {
   position: relative;
   top: 0px;
   left: 0px;
+  transform-origin: bottom left;
+  transition: transform 1s ease;
 }
 #D {
   background-color: green;
@@ -45,28 +51,30 @@ h1 {
   position: relative;
   top: 0px;
   left: 0px;
+  transform-origin: bottom right;
+  transition: transform 1s ease;
 }
 
 #main:hover #A {
   transform: rotate(90deg);
   transform-origin: top left;
-  transition: transform 1s ease-in-out;
+  transition: transform 1s ease;
 }
 
 #main:hover #B {
   transform: rotate(-90deg);
   transform-origin: top right;
-  transition: transform 1s ease-in-out;
+  transition: transform 1s ease;
 }
 
 #main:hover #C {
   transform: rotate(-90deg);
   transform-origin: bottom left;
-  transition: transform 1s ease-in-out;
+  transition: transform 1s ease;
 }
 
 #main:hover #D {
   transform: rotate(90deg);
   transform-origin: bottom right;
-  transition: transform 1s ease-in-out;
+  transition: transform 1s ease;
 }
