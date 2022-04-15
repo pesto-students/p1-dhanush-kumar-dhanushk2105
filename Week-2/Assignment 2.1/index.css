@@ -3,28 +3,42 @@
   background-color: black;
 }
 
-/* body {
-  background-color: black;
-  background-image: url("matrix.gif");
-} */
+h1,
+h2,
+header {
+  text-align: center;
+  margin: 5px 15px;
+}
 
 .content {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  height: 250px;
   align-content: center;
   align-items: center;
 }
 
 article {
+  width: 30%;
   border: 1px;
   border-style: dashed;
-  margin: 20px 20px 20px 20px;
-  justify-content: center;
+  justify-content: space-around;
   align-self: center;
+  margin: 5px;
 }
 
 *:hover {
   color: aliceblue;
   transition: 0.5s ease-in-out;
+}
+
+footer {
+  position: static;
+  bottom: 2%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
