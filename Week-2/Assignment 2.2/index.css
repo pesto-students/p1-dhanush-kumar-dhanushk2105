@@ -1,7 +1,6 @@
 #main {
   width: 200px;
   height: 200px;
-  background-color: blueviolet;
   top: 50%;
   left: 50%;
   position: relative;
@@ -48,8 +47,26 @@ h1 {
   left: 0px;
 }
 
-#main > div:hover {
+#main:hover #A {
   transform: rotate(90deg);
   transform-origin: top left;
+  transition: transform 1s ease-in-out;
+}
+
+#main:hover #B {
+  transform: rotate(-90deg);
+  transform-origin: top right;
+  transition: transform 1s ease-in-out;
+}
+
+#main:hover #C {
+  transform: rotate(-90deg);
+  transform-origin: bottom left;
+  transition: transform 1s ease-in-out;
+}
+
+#main:hover #D {
+  transform: rotate(90deg);
+  transform-origin: bottom right;
   transition: transform 1s ease-in-out;
 }
