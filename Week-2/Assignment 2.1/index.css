@@ -10,12 +10,18 @@ header {
   margin: 5px 15px;
 }
 
+/* .bg {
+  background-image: url("matrix.gif");
+  height: 100vh;
+} */
 .content {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   align-content: center;
   align-items: center;
+  z-index: 5;
+  top: 0;
 }
 
 article {
