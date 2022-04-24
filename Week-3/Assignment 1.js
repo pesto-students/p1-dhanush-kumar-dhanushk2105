@@ -13,7 +13,9 @@ function memoizeAdd(a,b){
 
 
 
-memoizeAdd(100,100)
-memoizeAdd(100)
-memoizeAdd(100,200)
-memoizeAdd(100,100)
+console.log(memoizeAdd(100,100))
+console.log(memoizeAdd(100))
+console.log(memoizeAdd(100,200))
+console.log(memoizeAdd(100,100))
+
+// heigher order function?
