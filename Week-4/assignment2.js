@@ -12,6 +12,6 @@ Teacher.prototype.teach = function(subject)
     console.log(this.name + " is now teaching " + subject);
 }
 
-var him = new Teacher();
-him.initialize("Dhanush", 23);
-him.teach("Inheritance");
+var t = new Teacher();
+t.initialize("Dhanush", 23);
+t.teach("Inheritance");
