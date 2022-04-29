@@ -1,0 +1,63 @@
+* {
+  color: green;
+  background-color: black;
+}
+
+h1,
+h2,
+header {
+  text-align: center;
+  margin: 5px 15px;
+}
+
+/* .bg {
+  background-image: url("matrix.gif");
+  height: 100vh;
+} */
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  align-items: center;
+  z-index: 5;
+  top: 0;
+}
+
+article {
+  width: 30%;
+  border: 1px;
+  border-style: dashed;
+  justify-content: space-around;
+  align-self: center;
+  margin: 5px;
+}
+
+*:hover {
+  color: aliceblue;
+  transition: 0.5s ease-in-out;
+}
+
+footer {
+  position: static;
+  bottom: 2%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    align-items: center;
+    z-index: 5;
+    top: 0;
+  }
+}
