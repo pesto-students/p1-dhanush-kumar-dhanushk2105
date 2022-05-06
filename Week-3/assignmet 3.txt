@@ -1,0 +1,23 @@
+function
+  createIncrement() 
+{
+  let count=0;
+  function increment() {
+    count++;
+  }
+  let message=`Count is${count}`;
+  function log() {console.log(message);}
+  return[increment,log];
+}
+
+const[increment,log] =createIncrement();
+increment();
+increment();
+increment();
+log();// What is logged?
+
+
+It is logged as "Count is 0"
+
+increment() increments the value by 1,  in createIncrement() we set it to zero, and log(); is not in scop of increment() variable so the function returns 0
+
