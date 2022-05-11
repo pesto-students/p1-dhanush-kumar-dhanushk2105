@@ -1,0 +1,26 @@
+{
+  "name": "assignment-4",
+  "version": "1.0.0",
+  "description": "Testing out JEST",
+  "main": "calculator.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "jest": {
+    "reporters": [
+      "default",
+      [
+        "./node_modules/jest-html-reporter",
+        {
+          "pageTitle": "Test Report"
+        }
+      ]
+    ]
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "jest-html-reporter": "^3.5.0"
+  }
+}
