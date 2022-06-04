@@ -9,9 +9,12 @@ const ToDo = ({todo, handleToggle}) => {
     }
 
    return (
+       <div className='todo'>
        <div id={todo.id} onClick={handleClick} className={todo.complete ? "strike" : ""}>
            {todo.task}
        </div>
+       </div>
+       
    );
 };
  
