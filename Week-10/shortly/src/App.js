@@ -21,8 +21,8 @@ function App() {
      <InputShortener setInputValue = {setInputValue}/>
      <BackgroundAnimate />
      <LinkResult inputValue = {inputValue} /></>}/>
-    <Route path='/about' element={<About />}/>
-    <Route path='/contact' element={<Contact />}/>
+    <Route path='/about' element={<><BackgroundAnimate /><About /></>}/>
+    <Route path='/contact' element={<><BackgroundAnimate /><Contact /></>}/>
     </Routes>
     </div>
     </>

@@ -11,6 +11,16 @@
   font-size: 3.5rem;
 }
 
+.inputContainer p {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.25rem;
+  color: #fff;
+}
+.inputContainer a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
 .inputContainer h1 span {
   color: var(--primary-color);
 }
